@@ -126,8 +126,8 @@ Me interesan tanto el desarrollo de sistemas de software en sistemas embebidos, 
   details: [
     - Scraping de pdf's con OCR tesseract
     - Generacion de la red a partir de los datos extraidos
-    - Implementacion de una aplicacion simple que permite visualizar la red usando Neo4J
-    - Estudio de su topologia y propiedades
+    - Implementacion de una aplicacion simple que permite visualizar la red usando Neo4J y visjs
+    - Estudio de la red, su topologia y propiedades
   ]
 )
 
