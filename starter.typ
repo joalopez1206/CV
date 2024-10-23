@@ -83,6 +83,8 @@ Me interesan tanto el desarrollo de sistemas de software en sistemas embebidos, 
   summary: "Desarrollo de un sistema de control de camaras para plasma",
   details: [
     - Implementar un sistema de control de camaras para toma de fotos en simultaneo
+    - Configuracion de camaras en tiempo real
+    - Red via ethernet para transferencia de datos 
   ]
 )
 #exp(
@@ -97,6 +99,8 @@ Me interesan tanto el desarrollo de sistemas de software en sistemas embebidos, 
     - Implementar un HAL simple para un giroscopio conectado vía $I^2C$
   ]
 )
+
+#v(20mm)
 
 #exp(
   role: "Profesor auxiliar/ayudante",
@@ -127,15 +131,6 @@ Me interesan tanto el desarrollo de sistemas de software en sistemas embebidos, 
   ]
 )
 
-#exp(
-  role: "Doc Brown's Mega Cup-o-Matic",
-  project: "Doc Brown's Garage",
-  date: "October 1949 - June 1953",
-  details: [
-    - Filed a patent for a new type of car cupholder, for storing cups of nuclear material up to 1L
-    - Developed nuclear hazard procedures for high school students interested in time and nuclear physics
-  ]
-) 
 
 = Idiomas
 - Ingles (Nivel C1)
