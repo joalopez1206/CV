@@ -18,7 +18,7 @@ Desarrollador de software y estudiante de Ingeniería Civil en Computación en l
 
 Además, manejo varios lenguajes de sistemas y frameworks backend para desarrollo web, complementando con habilidades en frontend. También tengo conocimientos en bases de datos SQL y NoSQL, así como en procesamiento masivo de datos y grafos para la web.
 
-Me interesan tanto el desarrollo de sistemas de software en sistemas embebidos, topicos sobre datos semánticos de web y lingüística.
+Me interesan tanto el desarrollo de sistemas de software en sistemas embebidos, topicos sobre web semantica y redes.
 
 = Educacion
 #edu(
@@ -37,9 +37,10 @@ Me interesan tanto el desarrollo de sistemas de software en sistemas embebidos, 
     [C],
     [Python],
     [C\#],
-    [bash],
+    [Bash],
     [Rust],
-    [SQL]
+    [SQL],
+    [HTML]
   )),
   ("Lenguajes nivel medio",(
     [Javascript],
@@ -51,14 +52,19 @@ Me interesan tanto el desarrollo de sistemas de software en sistemas embebidos, 
     [Pandas, numpy, matplotlib (Procesamiento de datos)],
     [Hadoop, spark (Procesamiento Masivo de datos)]
   )),
-  ("Sistemas embebidos",(
+  ("Frameworks: Sistemas embebidos",(
     [Arduino-IDE],
     [esp-idf]
   )),
   ("Bases de datos",(
     [PostgreSQL],
     [MySQL],
+    [Sqlite],
     [Neo4J],
+  )),
+  ("Versionamiento",(
+    [Git],
+    [Github]
   ))
 ))
 
@@ -69,14 +75,14 @@ Me interesan tanto el desarrollo de sistemas de software en sistemas embebidos, 
   project: "Niclabs",
   date: "Sep 2024 - act",
   location: "Santiago",
-  summary: "Desarrollo de software para libreria de DNS",
+  summary: "Desarrollo de software para libreria de DNS en rust",
   details: [
-    - Implementacion autentificacion de llave compartida TSIG
-    - Implementacion de extensiones de seguridad DNSSEC
+    - Implementacion de especificaciones de varios rfc's para un stub resolver
+    - Implementacion de funcionalidades de autentificacion con DNSSEC
   ]
 )
 #exp(
-  role: "Practica Desarrollador de Software",
+  role: "Practica II Desarrollador de Software",
   project: "CCHEN",
   date: "Ene 2024 - Mar 2024",
   location: "Santiago ",
@@ -88,7 +94,7 @@ Me interesan tanto el desarrollo de sistemas de software en sistemas embebidos, 
   ]
 )
 #exp(
-  role: "Practica Desarrollador de Software",
+  role: "Practica I Desarrollador de Software",
   project: "SPEL",
   date: "Jan 2023 - Oct 2023",
   location: "Santiago ",
@@ -104,7 +110,7 @@ Me interesan tanto el desarrollo de sistemas de software en sistemas embebidos, 
 
 #exp(
   role: "Profesor auxiliar/ayudante",
-  project: "University de Chile, FCFM",
+  project: "Universidad de Chile, FCFM",
   date: "2022-2024",
   summary: "Profesor ayudante para varios cursos dictados",
   details: [
@@ -117,12 +123,12 @@ Me interesan tanto el desarrollo de sistemas de software en sistemas embebidos, 
 )
 
 
-= Projects
+= Proyectos
 #exp(
   role: "Memoria de titulo",
   project: "Extraccion de red semantica de diccionarios",
   date: "Jun 2024 - act",
-  summary: "Generacion y extraccion de una red semantica",
+  summary: "Generacion y extraccion de una red semantica a partir de un diccionario de sinonimos",
   details: [
     - Scraping de pdf's con OCR tesseract
     - Generacion de la red a partir de los datos extraidos
@@ -130,8 +136,21 @@ Me interesan tanto el desarrollo de sistemas de software en sistemas embebidos, 
     - Estudio de la red, su topologia y propiedades
   ]
 )
+#exp(
+  role: "Proyecto de software: dnsrust",
+  project: "Niclabs",
+  date: "Mar 2024 - Ago 2024",
+  location: "Santiago",
+  summary: "Desarrollo de software para una libreria de DNS en rust",
+  details: [
+    En este curso con un equipo de 5, trabajamos en una libreria de DNS en rust, donde teniamos las siguientes tareas
+    - Implementacion autentificacion de llave compartida TSIG
+    - Implementacion de algunas extensiones de seguridad DNSSEC
+    - testeo y debugging de esas implementaciones
+  ]
+)
 
 
 = Idiomas
-- Ingles (Nivel C1)
+- Ingles (Nivel C1 Advanced)
 - Español (Nativo)
