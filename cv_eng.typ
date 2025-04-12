@@ -13,11 +13,11 @@
 )
 
 = About Me
-Software developer and Computer Engineering student at the University of Chile. I have experience in Python and data processing libraries such as numpy, matplotlib, and pandas.
+Software developer and Computer Engineering from the University of Chile. I have experience in Python and data processing libraries such as numpy, matplotlib, and pandas.
 
 Additionally, I am proficient in several system languages and backend frameworks for web development, complemented by skills in frontend technologies. I also have knowledge of SQL and NoSQL databases, as well as massive data processing and graph processing for the web.
 
-I am interested in developing software systems in embedded systems, topics related to semantic web, and networks.
+I am interested in developing software systems in embedded systems, topics related to semantic web and networks.
 
 = Education
 #edu(
@@ -48,8 +48,8 @@ I am interested in developing software systems in embedded systems, topics relat
   ("Frameworks and libraries", (
     [Flask, Django (backend)],
     [Bootstrap, vue (frontend)],
-    [Pandas, numpy, matplotlib (Data Processing)],
-    [Hadoop, spark (Mass Data Processing)]
+    [Pandas, Numpy, Matplotlib (Data Processing)],
+    [Hadoop, Spark (Mass Data Processing)]
   )),
   ("Embedded Systems Frameworks",(
     [Arduino-IDE],
@@ -60,15 +60,34 @@ I am interested in developing software systems in embedded systems, topics relat
     [MySQL],
     [Sqlite],
     [Neo4J],
+    [MongoDB]
+  )),
+  ("Version control systems", (
+    [Perforce],
+    [Github]
   ))
 ))
 
 
 = Experience
 #exp(
+  role: "R&D Engineer L1",
+  project: "Synopsys",
+  date: "Feb 2025 - Present",
+  location: "Santiago",
+  summary: "Software Development and support, DevTools Team, Chile",
+  details: [
+    Working as a Engineer for developing internal solutions and offering support to internal clients.
+    - Experience in "Check-in" processes and VCS.
+    - Developing tests for various applications.
+    - Creating simple pipelines in Github Actions.
+  ]
+)
+
+#exp(
   role: "Software Developer",
   project: "Niclabs",
-  date: "Sep 2024 - present",
+  date: "Sep 2024 - Jan 2025",
   location: "Santiago",
   summary: "Software development for DNS library in Rust",
   details: [
@@ -83,11 +102,12 @@ I am interested in developing software systems in embedded systems, topics relat
   location: "Santiago",
   summary: "Development of a plasma camera control system",
   details: [
-    - Implemented a camera control system for simultaneous photo capture
-    - Real-time camera configuration
+    Implemented a camera control system for simultaneous photo capture
+    - Cameras can be configurated in Real-time  
     - Ethernet network for data transfer
   ]
 )
+#v(30mm)
 #exp(
   role: "Software Development Intern I",
   project: "SPEL",
@@ -102,7 +122,7 @@ I am interested in developing software systems in embedded systems, topics relat
   ]
 )
 
-#v(30mm)
+
 
 #exp(
   role: "Teaching Assistant",
@@ -129,7 +149,7 @@ I am interested in developing software systems in embedded systems, topics relat
     - PDF scraping with Tesseract OCR
     - Network generation from extracted data
     - Implementation of a simple application to visualize the network using Neo4J and visjs
-    - Study of the network, its topology, and properties
+    - Study of the network, its topology and properties with networkx
   ]
 )
 #exp(
@@ -147,5 +167,5 @@ I am interested in developing software systems in embedded systems, topics relat
 )
 
 = Languages
-- English (C1 Advanced level)
+- English (C1 Advanced)
 - Spanish (Native)
