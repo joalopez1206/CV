@@ -26,7 +26,7 @@ I am interested in developing software systems in embedded systems, topics relat
   location: "Santiago, Chile",
   degrees: (
     ("B.S.", "Engineering Sciences with a major in Computing"),
-    ("Professional Title","Civil Engineering in Computing (Currently pursuing)")
+    ("Professional Title","Civil Engineering in Computing")
   ),
 )
 
@@ -64,14 +64,14 @@ I am interested in developing software systems in embedded systems, topics relat
   )),
   ("Version control systems", (
     [Perforce],
-    [Github]
+    [Git]
   ))
 ))
 
 
 = Experience
 #exp(
-  role: "R&D Engineer L1",
+  role: "R&D Engineer",
   project: "Synopsys",
   date: "Feb 2025 - Present",
   location: "Santiago",
@@ -80,7 +80,7 @@ I am interested in developing software systems in embedded systems, topics relat
     Working as a Engineer for developing internal solutions and offering support to internal clients.
     - Experience in "Check-in" processes and VCS.
     - Developing tests for various applications.
-    - Creating simple pipelines in Github Actions.
+    - Creating pipelines in Github Actions.
   ]
 )
 
@@ -150,6 +150,7 @@ I am interested in developing software systems in embedded systems, topics relat
     - Network generation from extracted data
     - Implementation of a simple application to visualize the network using Neo4J and visjs
     - Study of the network, its topology and properties with networkx
+    - More info in this #link("https://red-sinonimos.dcc.uchile.cl")[repository]
   ]
 )
 #exp(
@@ -163,6 +164,7 @@ I am interested in developing software systems in embedded systems, topics relat
     - Implementation of shared key authentication TSIG
     - Implementation of some DNSSEC security extensions
     - testing and debugging of those implementations
+    - More info in this #link("https://github.com/niclabs/dns-rust")[repository]
   ]
 )
 
