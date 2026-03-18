@@ -26,50 +26,90 @@ Me interesan tanto el desarrollo de sistemas de software en sistemas embebidos, 
   date: "2024",
   location: "Santiago, Chile",
   degrees: (
-    ("Lic.", "Ciencias de la ingenieria mencion computación"),
-    ("Titulo Profesional","Ingeniería Civil en Computación (Cursando actualmente)")
+    ("Lic.", "Ciencias de la ingenieria mencion computación - 2024"),
+    ("Titulo Profesional", "Ingeniería Civil en Computación - 2025"),
   ),
 )
 
 = Habilidades tecnicas
 #skills((
-  ("Lenguajes nivel Alto", (
-    [C],
-    [Python],
-    [C\#],
-    [Bash],
-    [Rust],
-    [SQL],
-    [HTML]
-  )),
-  ("Lenguajes nivel medio",(
-    [Javascript],
-    [Java],
-  )),
-  ("Frameworks y librerias manejadas", (
-    [Flask, Django (backend)],
-    [Bootstrap, vue (frontend)],
-    [Pandas, numpy, matplotlib (Procesamiento de datos)],
-    [Hadoop, spark (Procesamiento Masivo de datos)]
-  )),
-  ("Frameworks: Sistemas embebidos",(
-    [Arduino-IDE],
-    [esp-idf]
-  )),
-  ("Bases de datos",(
-    [PostgreSQL],
-    [MySQL],
-    [Sqlite],
-    [Neo4J],
-  )),
-  ("Versionamiento",(
-    [Git],
-    [Github]
-  ))
+  (
+    "Lenguajes nivel Alto",
+    (
+      [C],
+      [Python],
+      [C\#],
+      [Bash],
+      [Rust],
+      [SQL],
+      [HTML],
+    ),
+  ),
+  (
+    "Lenguajes nivel medio",
+    (
+      [Javascript],
+      [Java],
+    ),
+  ),
+  (
+    "Frameworks y librerias manejadas",
+    (
+      [Flask, Django (backend)],
+      [Bootstrap (frontend)],
+      [Pandas, numpy, matplotlib (Procesamiento de datos)],
+      [Hadoop, spark (Procesamiento Masivo de datos)],
+    ),
+  ),
+  (
+    "Frameworks: Sistemas embebidos",
+    (
+      [Arduino-IDE],
+      [esp-idf],
+    ),
+  ),
+  (
+    "Bases de datos",
+    (
+      [PostgreSQL],
+      [MySQL],
+      [Sqlite],
+      [Neo4J],
+      [MongoDB],
+    ),
+  ),
+  (
+    "Versionamiento",
+    (
+      [Git],
+      [Perforce],
+      [P4 Code Review],
+    ),
+  ),
+  (
+    "CI-CD",
+    (
+      [Github Actions],
+      [Jenkins],
+    ),
+  ),
 ))
 
 
 = Experiencia
+#exp(
+  role: "R&D Engineer (L1)",
+  project: "Synopsys",
+  date: "Feb 2025 - Presente",
+  location: "Santiago",
+  summary: "Desarrollo de software y soporte, equipo DevTools, Chile",
+  details: [
+    - Desarrollo y mantenimiento de herramientas internas utilizando Perl, Python y Java.
+    - Analisis y resolucion de problemas reportados por clientes internos.
+    - Diseño e implementacion de automatizaciones CI/CD con Jenkins y GitHub Actions.
+    - Soporte técnico y mejoras para los flujos de trabajo de desarrollo internos.
+  ],
+)
 #exp(
   role: "Desarrollador de Software",
   project: "Niclabs",
@@ -79,8 +119,9 @@ Me interesan tanto el desarrollo de sistemas de software en sistemas embebidos, 
   details: [
     - Implementacion de especificaciones de varios rfc's para un stub resolver
     - Implementacion de funcionalidades de autentificacion con DNSSEC
-  ]
+  ],
 )
+
 #exp(
   role: "Practica II Desarrollador de Software",
   project: "CCHEN",
@@ -90,9 +131,10 @@ Me interesan tanto el desarrollo de sistemas de software en sistemas embebidos, 
   details: [
     - Implementar un sistema de control de camaras para toma de fotos en simultaneo
     - Configuracion de camaras en tiempo real
-    - Red via ethernet para transferencia de datos 
-  ]
+    - Red via ethernet para transferencia de datos
+  ],
 )
+#v(90mm)
 #exp(
   role: "Practica I Desarrollador de Software",
   project: "SPEL",
@@ -103,10 +145,8 @@ Me interesan tanto el desarrollo de sistemas de software en sistemas embebidos, 
     - Identificar problemas de compatibilidad de librerías
     - Cambio de librerías para mejorar rendimiento en términos de comunicación
     - Implementar un HAL simple para un giroscopio conectado vía $I^2C$
-  ]
+  ],
 )
-
-#v(20mm)
 
 #exp(
   role: "Profesor auxiliar/ayudante",
@@ -119,7 +159,7 @@ Me interesan tanto el desarrollo de sistemas de software en sistemas embebidos, 
     - Matemáticas discretas para ciencias de la computación
     - Programación de software de sistemas
     - Teoría de la computación
-  ]
+  ],
 )
 
 
@@ -134,7 +174,7 @@ Me interesan tanto el desarrollo de sistemas de software en sistemas embebidos, 
     - Generacion de la red a partir de los datos extraidos
     - Implementacion de una aplicacion simple que permite visualizar la red usando Neo4J y visjs
     - Estudio de la red, su topologia y propiedades
-  ]
+  ],
 )
 #exp(
   role: "Proyecto de software: dnsrust",
@@ -147,7 +187,7 @@ Me interesan tanto el desarrollo de sistemas de software en sistemas embebidos, 
     - Implementacion autentificacion de llave compartida TSIG
     - Implementacion de algunas extensiones de seguridad DNSSEC
     - testeo y debugging de esas implementaciones
-  ]
+  ],
 )
 
 
