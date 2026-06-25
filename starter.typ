@@ -9,7 +9,6 @@
     [#link("https://github.com/joalopez1206")[Github]],
     [#link("https://www.linkedin.com/in/jlopez0612")[Linkedin]],
   ),
-  // footer: [#align(center)[#emph[References available on request]]]
 )
 
 
@@ -23,7 +22,7 @@ Me interesan tanto el desarrollo de sistemas de software en sistemas embebidos, 
 = Educacion
 #edu(
   institution: "Universidad de Chile",
-  date: "2024",
+  date: "2025",
   location: "Santiago, Chile",
   degrees: (
     ("Lic.", "Ciencias de la ingenieria mencion computación - 2024"),
@@ -98,18 +97,20 @@ Me interesan tanto el desarrollo de sistemas de software en sistemas embebidos, 
 
 = Experiencia
 #exp(
-  role: "R&D Engineer (L1)",
+  role: "R&D Sr. Engineer (L2)",
   project: "Synopsys",
-  date: "Feb 2025 - Presente",
+  date: "Feb 2025 - May 2026",
   location: "Santiago",
-  summary: "Desarrollo de software y soporte, equipo DevTools, Chile",
+  summary: "Desarrollo de software, arquitectura y soporte de herramientas internas.",
   details: [
-    - Desarrollo y mantenimiento de herramientas internas utilizando Perl, Python y Java.
-    - Analisis y resolucion de problemas reportados por clientes internos.
-    - Diseño e implementacion de automatizaciones CI/CD con Jenkins y GitHub Actions.
-    - Soporte técnico y mejoras para los flujos de trabajo de desarrollo internos.
+    - Desarrollo y mantenimiento de herramientas de validación, testing y code management utilizando Perl, Python y Java, utilizadas por organizaciones con más de 5.000 desarrolladores.
+    - Diseño e implementación de funcionalidades críticas, asumiendo responsabilidad sobre su arquitectura, evolución y soporte operativo.
+    - Colaboración con equipos distribuidos en Estados Unidos, India, China y Chile para resolver problemas complejos y entregar soluciones escalables a clientes internos.
   ],
 )
+
+
+
 #exp(
   role: "Desarrollador de Software",
   project: "Niclabs",
@@ -121,6 +122,7 @@ Me interesan tanto el desarrollo de sistemas de software en sistemas embebidos, 
     - Implementacion de funcionalidades de autentificacion con DNSSEC
   ],
 )
+#v(90mm)
 
 #exp(
   role: "Practica II Desarrollador de Software",
@@ -134,7 +136,6 @@ Me interesan tanto el desarrollo de sistemas de software en sistemas embebidos, 
     - Red via ethernet para transferencia de datos
   ],
 )
-#v(90mm)
 #exp(
   role: "Practica I Desarrollador de Software",
   project: "SPEL",
@@ -176,20 +177,6 @@ Me interesan tanto el desarrollo de sistemas de software en sistemas embebidos, 
     - Estudio de la red, su topologia y propiedades
   ],
 )
-#exp(
-  role: "Proyecto de software: dnsrust",
-  project: "Niclabs",
-  date: "Mar 2024 - Ago 2024",
-  location: "Santiago",
-  summary: "Desarrollo de software para una libreria de DNS en rust",
-  details: [
-    En este curso con un equipo de 5, trabajamos en una libreria de DNS en rust, donde teniamos las siguientes tareas
-    - Implementacion autentificacion de llave compartida TSIG
-    - Implementacion de algunas extensiones de seguridad DNSSEC
-    - testeo y debugging de esas implementaciones
-  ],
-)
-
 
 = Idiomas
 - Ingles (Nivel C1 Advanced)

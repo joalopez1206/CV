@@ -55,7 +55,7 @@ I am interested in developing software systems in embedded systems, topics relat
     "Frameworks and libraries",
     (
       [Flask, Django (backend)],
-      [Bootstrap, vue (frontend)],
+      [Bootstrap (frontend)],
       [Pandas, Numpy, Matplotlib (Data Processing)],
       [Hadoop, Spark (Mass Data Processing)],
     ),
@@ -105,7 +105,6 @@ I am interested in developing software systems in embedded systems, topics relat
   details: [
     - Developed and maintained internal tools using Perl, Python, and Java.
     - Analyzed and resolved issues reported by internal clients.
-    - Monitored and maintained various systems using the ELK stack (Elasticsearch, Logstash, Kibana).
     - Designed and implemented CI/CD automations with Jenkins and GitHub Actions.
     - Provided technical support and improvements for internal development workflows.
   ],
