@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Mira mi foaf xd">
+  <meta name="color-scheme" content="light dark">
+  <title>joalopez1206</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="#inicio" aria-label="Ir al inicio">JL<span>.</span></a>
+    <nav aria-label="Navegación principal">
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#cosas">Cosas</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <button class="theme-toggle" type="button" aria-label="Cambiar tema">
+      <span aria-hidden="true">◐</span>
+    </button>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <p class="eyebrow">Santiago, Chile · bienvenido a mi rincón</p>
+      <h1>🤨</h1>
+      <p class="hero-copy">
+        Hago software y me distraigo pensando en grafos, redes, palabras,
+        música y cualquier problema que parezca más entretenido después de
+        dibujarlo como nodos y aristas.
+      </p>
+      <div class="hero-links">
+        <a class="button primary" href="#cosas">Ver cosas que he hecho</a>
+        <a class="button secondary" href="foaf.ttl">Mi FOAF, porque sí</a>
+      </div>
+      <div class="doodle" aria-hidden="true">
+        <span class="node node-a"></span>
+        <span class="node node-b"></span>
+        <span class="node node-c"></span>
+        <span class="node node-d"></span>
+        <span class="edge edge-a"></span>
+        <span class="edge edge>
+        <span class=" edge edge-c"></span>
+      </div>
+    </section>
+
+    <section id="sobre-mi" class="section intro">
+      <div>
+        <p class="section-number">01</p>
+        <h2>Sobre mí</h2>
+      </div>
+      <div class="prose">
+        <p>
+          Soy un humano pa. Me gusta
+          programar y ser un hater profesional: es una pagina para compartir cosas que me parecen interesantes y no
+          <b>related</b> a la pega.
+        </p>
+        <p>
+          Últimamente vuelvo bastante a los sistemas, las redes y los grafos.
+          También escucho mucha música <i><a href="https://users.dcc.uchile.cl/~jlopez/graphviz.svg">(Mira mi grafo de
+              musica boneeeeto) </a></i>, disfruto aprender herramientas
+          nuevas y me gusta graficar weas innecesarias.
+        </p>
+      </div>
+    </section>
+
+    <section id="cosas" class="section projects-section">
+      <div class="section-heading">
+        <div>
+          <p class="section-number">02</p>
+          <h2>Algunas cosas</h2>
+        </div>
+        <p>Proyectos "serios" 🤨, experimentos y curiosidades, sin orden particular.</p>
+      </div>
+
+      <div class="project-grid">
+        <article class="project featured">
+          <div class="project-meta">
+            <span>grafos + palabras</span>
+            <span>2024–2025</span>
+          </div>
+          <h3>Una red de sinónimos</h3>
+          <p>
+            Mi memoria terminó siendo una excusa bastante elaborada para
+            convertir un diccionario de sinónimos en una red navegable.
+            Incluyó OCR, limpieza de datos, Neo4j y muchas preguntas sobre
+            qué significa realmente que dos palabras estén “cerca” y que significa ser un concepto.
+          </p>
+          <a class="text-link" href="https://red-sinonimos.dcc.uchile.cl/">
+            Explorar la red <span aria-hidden=-b"></span"true">↗</span>
+          </a>
+        </article>
+
+        <article class="project">
+          <div class="project-meta">
+            <span>rust + redes</span>
+            <span>2024</span>
+          </div>
+          <h3>DNS en Rust</h3>
+          <p>
+            Trabajé en <code>dns-rust</code>, especialmente en DNSSEC y TSIG.
+            Fue una buena forma de descubrir que detrás de escribir los dominios
+            hay una cantidad xd de detalles interesantes.
+          </p>
+          <a class="text-link" href="https://github.com/niclabs/dns-rust">
+            Ver el repositorio <span aria-hidden="true">↗</span>
+          </a>
+        </article>
+
+        <article class="project">
+          <div class="project-meta">
+            <span>cámaras + plasma</span>
+            <span>2024</span>
+          </div>
+          <h3>Fotos simultáneas</h3>
+          <p>
+            Un sistema para configurar varias cámaras en tiempo real y
+            hacerlas capturar imágenes simultáneamente durante experimentos
+            de plasma en la CCHEN. Las fotos viajaban por Ethernet; el plasma
+            era lo weno.
+          </p>
+        </article>
+
+        <article class="project">
+          <div class="project-meta">
+            <span>c + espacio</span>
+            <span>2023</span>
+          </div>
+          <h3>Software para CubeSats</h3>
+          <p>
+            Porté software de un CubeSat a ESP32 y FreeRTOS, cambié su capa
+            de comunicaciones y escribí una pequeña abstracción para un
+            giroscopio.
+          </p>
+        </article>
+      </div>
+
+      <details class="music-graph">
+        <summary>
+          <span>
+            <small>Bonus track</small>
+            Grafito musical (Hasta 2024)
+          </span>
+          <span class="summary-action" aria-hidden="true">abrir +</span>
+        </summary>
+        <div class="graph-content">
+          <p>
+            Agrupé artistas según el año que los iba escuchando. Igual hay weas interesantes como
+            ver que hay artistas que siguen vigentes y son puentes de años pasados.
+          </p>
+          <div class="graph-frame">
+            <img src="https://users.dcc.uchile.cl/~jlopez/graphviz.svg"
+              alt="Grafo de artistas musicales agrupados por año" loading="lazy">
+          </div>
+        </div>
+      </details>
+    </section>
+
+    <section id="contacto" class="section contact">
+      <p class="section-number">xddddddd</p>
+      <h2>Mi data crack<br>🧐</h2>
+      <div class="contact-links">
+        <a href="mailto:joalopez1206@gmail.com">Email <span>↗</span></a>
+        <a href="https://github.com/joalopez1206">GitHub <span>↗</span></a>
+        <a href="https://www.linkedin.com/in/jlopez0612">LinkedIn <span>↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Javascript vanilla xd</p>
+    <p>© <span id="year"></span> Joaquín López</p>
+  </footer>
+</body>
+
+</html>

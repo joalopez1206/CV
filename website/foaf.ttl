@@ -1,0 +1,25 @@
+@base <https://users.dcc.uchile.cl/~jlopez/foaf.ttl> .
+
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<> a foaf:Document ;
+   dc:title "Perfil FOAF de Joaquín López"@es ;
+   foaf:primaryTopic <#jl> ;
+   dc:creator <#jl> .
+
+<#jl> a foaf:Person ;
+   rdfs:label "Joaquín López" ;
+   rdfs:comment "Ingeniero en computación de la Universidad de Chile"@es ;
+   foaf:name "Joaquín López" ;
+   foaf:givenName "Joaquín" ;
+   foaf:familyName "López" ;
+   foaf:homepage <https://users.dcc.uchile.cl/~jlopez/> ;
+   foaf:account <https://github.com/joalopez1206> ;
+   foaf:interest dbr:Semantic_Web,
+                 dbr:Graph_theory,
+                 dbr:Computer_network,
+                 dbr:Programming_language,
+                 dbr:Music .

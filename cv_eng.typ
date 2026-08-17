@@ -6,18 +6,14 @@
   contacts: (
     [#link("mailto:joalopez1206@gmail.com")[Email]],
     [#link("https://users.dcc.uchile.cl/~jlopez/")[Website]],
-    [#link("https://github.com/joalopez1206")[Github]],
-    [#link("https://www.linkedin.com/in/jlopez0612")[Linkedin]],
+    [#link("https://github.com/joalopez1206")[GitHub]],
+    [#link("https://www.linkedin.com/in/jlopez0612")[LinkedIn]],
   ),
   // footer: [#align(center)[#emph[References available on request]]]
 )
 
-= About Me
-Software developer and Computer Engineer from the University of Chile. I have experience in Python and data processing libraries such as numpy, matplotlib, and pandas.
-
-Additionally, I am proficient in several system languages and backend frameworks for web development, complemented by skills in frontend technologies. I also have knowledge of SQL and NoSQL databases, as well as massive data processing and graph processing for the web.
-
-I am interested in developing software systems in embedded systems, topics related to semantic web and networks.
+= Professional Summary
+Computer Engineer and software developer with experience building internal developer tools, backend systems, CI/CD automations, and network software. Proficient in Python, C, Rust, and SQL, with hands-on experience in Jenkins, GitHub Actions, databases, and Linux-oriented development workflows. Interested in backend, systems, and developer productivity engineering.
 
 = Education
 #edu(
@@ -25,46 +21,47 @@ I am interested in developing software systems in embedded systems, topics relat
   date: "2019 - 2025",
   location: "Santiago, Chile",
   degrees: (
-    ("B.S.", "Engineering Sciences with a major in Computing - 2024"),
-    ("Professional Title", "Civil Engineering in Computing - 2025"),
+    ("B.S.", "Engineering Sciences, Major in Computing - 2024"),
+    ("Professional Degree", "Computer Engineering - 2025"),
   ),
 )
 
 = Technical Skills
 #skills((
   (
-    "High proficiency languages",
+    "Languages",
     (
-      [C],
       [Python],
-      [C\#],
-      [Bash],
+      [C],
       [Rust],
-      [SQL],
-      [HTML],
-    ),
-  ),
-  (
-    "Intermediate languages",
-    (
-      [Javascript],
+      [C\#],
       [Java],
+      [JavaScript],
+      [Perl],
+      [Bash],
+      [SQL],
     ),
   ),
   (
-    "Frameworks and libraries",
+    "Backend and data",
     (
-      [Flask, Django (backend)],
-      [Bootstrap (frontend)],
-      [Pandas, Numpy, Matplotlib (Data Processing)],
-      [Hadoop, Spark (Mass Data Processing)],
+      [Flask],
+      [Django],
+      [Pandas],
+      [NumPy],
+      [NetworkX],
+      [Hadoop],
+      [Spark],
     ),
   ),
   (
-    "Embedded Systems Frameworks",
+    "DevOps and tooling",
     (
-      [Arduino-IDE],
-      [esp-idf],
+      [Jenkins],
+      [GitHub Actions],
+      [Git],
+      [Perforce],
+      [P4 Code Review],
     ),
   ),
   (
@@ -72,24 +69,18 @@ I am interested in developing software systems in embedded systems, topics relat
     (
       [PostgreSQL],
       [MySQL],
-      [Sqlite],
-      [Neo4J],
+      [SQLite],
+      [Neo4j],
       [MongoDB],
     ),
   ),
   (
-    "Version control systems",
+    "Systems and embedded",
     (
-      [Perforce],
-      [Git],
-      [P4 Code Review],
-    ),
-  ),
-  (
-    "CICD Tools",
-    (
-      [Github Actions],
-      [Jenkins],
+      [FreeRTOS],
+      [ESP-IDF],
+      [Arduino],
+      [I2C],
     ),
   ),
 ))
@@ -97,16 +88,28 @@ I am interested in developing software systems in embedded systems, topics relat
 
 = Experience
 #exp(
+  role: "Senior R&D Engineer",
+  project: "Synopsys",
+  date: "May 2026 - Present",
+  location: "Santiago",
+  summary: "Infrastructure modernization and internal service ownership, DevTools team",
+  details: [
+    - Drive infrastructure update projects and maintain widely used internal services.
+    - Design and implement CI/CD automations with Jenkins and GitHub Actions.
+    - Improve internal development workflows through tooling and process automation.
+  ],
+)
+
+#exp(
   role: "R&D Engineer",
   project: "Synopsys",
-  date: "Feb 2025 - Present",
+  date: "Feb 2025 - Apr 2026",
   location: "Santiago",
-  summary: "Software Development and support, DevTools Team, Chile",
+  summary: "Internal tooling and engineering support, DevTools team",
   details: [
-    - Developed and maintained internal tools using Perl, Python, and Java.
-    - Analyzed and resolved issues reported by internal clients.
-    - Designed and implemented CI/CD automations with Jenkins and GitHub Actions.
-    - Provided technical support and improvements for internal development workflows.
+    - Developed and maintained internal developer tools using Perl, Python, and Java.
+    - Diagnosed and resolved software and workflow issues reported by internal engineering teams.
+    - Maintained CI/CD workflows and provided technical support for engineering tools.
   ],
 )
 
@@ -115,10 +118,10 @@ I am interested in developing software systems in embedded systems, topics relat
   project: "Niclabs",
   date: "Sep 2024 - Jan 2025",
   location: "Santiago",
-  summary: "Software development for DNS library in Rust",
+  summary: "Development of an open-source DNS library in Rust",
   details: [
-    - Implementation of specifications of various RFCs for a stub resolver
-    - Implementation of authentication functionalities with DNSSEC
+    - Implemented RFC-defined functionality for a DNS stub resolver.
+    - Added DNSSEC authentication functionality and validated protocol behavior through testing and debugging.
   ],
 )
 #exp(
@@ -128,9 +131,8 @@ I am interested in developing software systems in embedded systems, topics relat
   location: "Santiago",
   summary: "Development of a camera control system for plasma data acquisition",
   details: [
-    Implemented a camera control system for simultaneous photo capture
-    - Cameras can be configurated in Real-time
-    - Ethernet network for data transfer
+    - Developed a camera control system for synchronized image capture during plasma experiments.
+    - Enabled real-time camera configuration and image transfer over Ethernet.
   ],
 )
 #v(90mm)
@@ -139,12 +141,11 @@ I am interested in developing software systems in embedded systems, topics relat
   project: "SPEL",
   date: "Jan 2023 - Oct 2023",
   location: "Santiago",
-  summary: "Software development for Cubesats",
+  summary: "Embedded software development for CubeSats",
   details: [
-    The project consisted in the development of a software system for Cubesats written in C, which involved the following tasks:
-    - Port the software to a new platform (esp32 + FreeRTOS)
-    - Change the comunications library (libcsp)
-    - Implement a simple HAL for a gyroscope connected via $I^2C$
+    - Ported a C-based CubeSat software platform to ESP32 and FreeRTOS.
+    - Migrated the communications layer to the LibCSP protocol library.
+    - Implemented a hardware abstraction layer for an $I^2C$ gyroscope.
   ],
 )
 
@@ -153,14 +154,10 @@ I am interested in developing software systems in embedded systems, topics relat
 #exp(
   role: "Teaching Assistant",
   project: "University of Chile, FCFM",
-  date: "2022-2024",
-  summary: "Teaching assistant for various courses",
+  date: "2022 - 2024",
+  summary: "Teaching assistant for mathematics and computer science courses",
   details: [
-    - Introduction to Calculus
-    - Introduction to Algebra
-    - Discrete Mathematics for Computer Science
-    - Systems Software Programming
-    - Theory of Computation
+    - Courses taught: Systems Software Programming, Theory of Computation, Discrete Mathematics, Calculus, and Algebra.
   ],
 )
 
@@ -169,14 +166,14 @@ I am interested in developing software systems in embedded systems, topics relat
 #exp(
   role: "Thesis",
   project: "Semantic network extraction from dictionaries",
-  date: "Jun 2024 - present",
-  summary: "Generation and extraction of a semantic network from a dictionary of synonyms",
+  date: "Jun 2024 - 2025",
+  summary: "Extraction, analysis, and visualization of a semantic network from a Spanish synonym dictionary",
   details: [
-    - PDF scraping with Tesseract OCR
-    - Network generation from extracted data
-    - Implementation of a simple application to visualize the network using Neo4J and visjs
-    - Study of the network, its topology and properties with networkx
-    - More info in this #link("https://red-sinonimos.dcc.uchile.cl")[repository]
+    - Built a Tesseract OCR pipeline to extract and process dictionary data from PDF documents.
+    - Generated a semantic network and stored its relationships in Neo4j.
+    - Developed a web application with vis.js to explore the network interactively.
+    - Analyzed network topology and structural properties with NetworkX.
+    - View the #link("https://red-sinonimos.dcc.uchile.cl")[project website].
   ],
 )
 #exp(
@@ -184,13 +181,11 @@ I am interested in developing software systems in embedded systems, topics relat
   project: "Niclabs",
   date: "Mar 2024 - Aug 2024",
   location: "Santiago",
-  summary: "Software development for a DNS library in Rust",
+  summary: "Team development of an open-source DNS library in Rust",
   details: [
-    In this course with a team of 5 people, we worked a DNS library in Rust, which involved the following tasks:
-    - Implementation of shared key authentication TSIG
-    - Implementation of some DNSSEC security extensions
-    - testing and debugging of those implementations
-    - More info in this #link("https://github.com/niclabs/dns-rust")[repository]
+    - Collaborated in a five-person team to implement TSIG shared-key authentication.
+    - Implemented, tested, and debugged DNSSEC security extensions.
+    - View the #link("https://github.com/niclabs/dns-rust")[repository].
   ],
 )
 
