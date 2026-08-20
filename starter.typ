@@ -1,70 +1,66 @@
 #import "@preview/guided-resume-starter-cgc:2.0.0": *
 #set text(lang: "spa")
 #show: resume.with(
-  author: "Joaquin Lopez",
+  author: "Joaquin Lopez N.",
   location: "Santiago, Chile",
   contacts: (
     [#link("mailto:joalopez1206@gmail.com")[Email]],
-    [#link("https://users.dcc.uchile.cl/~jlopez/")[Website]],
-    [#link("https://github.com/joalopez1206")[Github]],
-    [#link("https://www.linkedin.com/in/jlopez0612")[Linkedin]],
+    [#link("https://users.dcc.uchile.cl/~jlopez/")[Sitio web]],
+    [#link("https://github.com/joalopez1206")[GitHub]],
+    [#link("https://www.linkedin.com/in/jlopez0612")[LinkedIn]],
   ),
 )
 
+= Resumen profesional
+Ingeniero en Computación y desarrollador de software con experiencia en la creación de herramientas internas para desarrolladores, sistemas backend, automatizaciones de CI/CD y software de redes. Dominio de Python, C, Rust y SQL, junto con experiencia práctica en Jenkins, GitHub Actions, bases de datos y flujos de desarrollo orientados a Linux. Interesado en ingeniería backend, de sistemas y de productividad para desarrolladores.
 
-= Sobre mi
-Desarrollador de software y estudiante de Ingeniería Civil en Computación en la Universidad de Chile. Tengo experiencia en Python y en el uso de librerías para procesamiento de datos como numpy, matplotlib y pandas.
-
-Además, manejo varios lenguajes de sistemas y frameworks backend para desarrollo web, complementando con habilidades en frontend. También tengo conocimientos en bases de datos SQL y NoSQL, así como en procesamiento masivo de datos y grafos para la web.
-
-Me interesan tanto el desarrollo de sistemas de software en sistemas embebidos, topicos sobre web semantica y redes.
-
-= Educacion
+= Educación
 #edu(
   institution: "Universidad de Chile",
-  date: "2025",
+  date: "2019 - 2025",
   location: "Santiago, Chile",
   degrees: (
-    ("Lic.", "Ciencias de la ingenieria mencion computación - 2024"),
-    ("Titulo Profesional", "Ingeniería Civil en Computación - 2025"),
+    ("Lic.", "Ciencias de la Ingeniería, mención Computación - 2024"),
+    ("Título profesional", "Ingeniería Civil en Computación - 2025"),
   ),
 )
 
-= Habilidades tecnicas
+= Habilidades técnicas
 #skills((
   (
-    "Lenguajes nivel Alto",
+    "Lenguajes",
     (
-      [C],
       [Python],
-      [C\#],
-      [Bash],
+      [C],
       [Rust],
-      [SQL],
-      [HTML],
-    ),
-  ),
-  (
-    "Lenguajes nivel medio",
-    (
-      [Javascript],
+      [C\#],
       [Java],
+      [JavaScript],
+      [Perl],
+      [Bash],
+      [SQL],
     ),
   ),
   (
-    "Frameworks y librerias manejadas",
+    "Backend y datos",
     (
-      [Flask, Django (backend)],
-      [Bootstrap (frontend)],
-      [Pandas, numpy, matplotlib (Procesamiento de datos)],
-      [Hadoop, spark (Procesamiento Masivo de datos)],
+      [Flask],
+      [Django],
+      [Pandas],
+      [NumPy],
+      [NetworkX],
+      [Hadoop],
+      [Spark],
     ),
   ),
   (
-    "Frameworks: Sistemas embebidos",
+    "DevOps y herramientas",
     (
-      [Arduino-IDE],
-      [esp-idf],
+      [Jenkins],
+      [GitHub Actions],
+      [Git],
+      [Perforce],
+      [P4 Code Review],
     ),
   ),
   (
@@ -72,112 +68,125 @@ Me interesan tanto el desarrollo de sistemas de software en sistemas embebidos, 
     (
       [PostgreSQL],
       [MySQL],
-      [Sqlite],
-      [Neo4J],
+      [SQLite],
+      [Neo4j],
       [MongoDB],
     ),
   ),
   (
-    "Versionamiento",
+    "Sistemas y desarrollo embebido",
     (
-      [Git],
-      [Perforce],
-      [P4 Code Review],
-    ),
-  ),
-  (
-    "CI-CD",
-    (
-      [Github Actions],
-      [Jenkins],
+      [FreeRTOS],
+      [ESP-IDF],
+      [Arduino],
+      [I2C],
     ),
   ),
 ))
 
-
 = Experiencia
 #exp(
-  role: "R&D Sr. Engineer (L2)",
+  role: "Senior R&D Engineer",
   project: "Synopsys",
-  date: "Feb 2025 - May 2026",
+  date: "May 2026 - Presente",
   location: "Santiago",
-  summary: "Desarrollo de software, arquitectura y soporte de herramientas internas.",
+  summary: "Modernización de infraestructura y responsabilidad sobre servicios internos, equipo de DevTools",
   details: [
-    - Desarrollo y mantenimiento de herramientas de validación, testing y code management utilizando Perl, Python y Java, utilizadas por organizaciones con más de 5.000 desarrolladores.
-    - Diseño e implementación de funcionalidades críticas, asumiendo responsabilidad sobre su arquitectura, evolución y soporte operativo.
-    - Colaboración con equipos distribuidos en Estados Unidos, India, China y Chile para resolver problemas complejos y entregar soluciones escalables a clientes internos.
+    - Lidero proyectos de actualización de infraestructura y mantengo servicios internos de uso extendido.
+    - Diseño e implemento automatizaciones de CI/CD con Jenkins y GitHub Actions.
+    - Mejoro los flujos internos de desarrollo mediante herramientas y automatización de procesos.
   ],
 )
 
-
+#exp(
+  role: "R&D Engineer",
+  project: "Synopsys",
+  date: "Feb 2025 - Abr 2026",
+  location: "Santiago",
+  summary: "Herramientas internas y soporte de ingeniería, equipo de DevTools",
+  details: [
+    - Desarrollé y mantuve herramientas internas para desarrolladores utilizando Perl, Python y Java.
+    - Diagnostiqué y resolví problemas de software y flujos de trabajo reportados por equipos internos de ingeniería.
+    - Mantuve flujos de CI/CD y brindé soporte técnico para herramientas de ingeniería.
+  ],
+)
 
 #exp(
   role: "Desarrollador de Software",
   project: "Niclabs",
-  date: "Sep 2024 - act",
+  date: "Sep 2024 - Ene 2025",
   location: "Santiago",
-  summary: "Desarrollo de software para libreria de DNS en rust",
+  summary: "Desarrollo de una biblioteca DNS de código abierto en Rust",
   details: [
-    - Implementacion de especificaciones de varios rfc's para un stub resolver
-    - Implementacion de funcionalidades de autentificacion con DNSSEC
+    - Implementé funcionalidades definidas en RFC para un stub resolver de DNS.
+    - Incorporé funcionalidades de autenticación DNSSEC y validación mediante testing.
   ],
 )
-#v(90mm)
 
 #exp(
-  role: "Practica II Desarrollador de Software",
+  role: "Práctica Profesional II - Desarrollo de Software",
   project: "CCHEN",
   date: "Ene 2024 - Mar 2024",
-  location: "Santiago ",
-  summary: "Desarrollo de un sistema de control de camaras para plasma",
+  location: "Santiago",
+  summary: "Desarrollo de un sistema de control de cámaras para la adquisición de datos de plasma",
   details: [
-    - Implementar un sistema de control de camaras para toma de fotos en simultaneo
-    - Configuracion de camaras en tiempo real
-    - Red via ethernet para transferencia de datos
+    - Desarrollé un sistema de control de cámaras para la captura sincronizada de imágenes durante experimentos de plasma.
+    - Habilité la configuración de cámaras en tiempo real y la transferencia de imágenes mediante Ethernet.
   ],
 )
+
+#v(90mm)
 #exp(
-  role: "Practica I Desarrollador de Software",
+  role: "Práctica Profesional I - Desarrollo de Software",
   project: "SPEL",
-  date: "Jan 2023 - Oct 2023",
-  location: "Santiago ",
-  summary: "Desarrollo de software para Cubesats",
+  date: "Ene 2023 - Oct 2023",
+  location: "Santiago",
+  summary: "Desarrollo de software embebido para CubeSats",
   details: [
-    - Identificar problemas de compatibilidad de librerías
-    - Cambio de librerías para mejorar rendimiento en términos de comunicación
-    - Implementar un HAL simple para un giroscopio conectado vía $I^2C$
+    - Porté una plataforma de software para CubeSats escrita en C a ESP32 y FreeRTOS.
+    - Migré la capa de comunicaciones a la biblioteca de protocolos LibCSP.
+    - Implementé una capa de abstracción de hardware para un giroscopio conectado mediante $I^2C$.
   ],
 )
 
 #exp(
-  role: "Profesor auxiliar/ayudante",
+  role: "Profesor Auxiliar y Ayudante",
   project: "Universidad de Chile, FCFM",
-  date: "2022-2024",
-  summary: "Profesor ayudante para varios cursos dictados",
+  date: "2022 - 2024",
+  summary: "Docencia en cursos de matemáticas y ciencias de la computación",
   details: [
-    - Introducción al cálculo
-    - Introducción al álgebra
-    - Matemáticas discretas para ciencias de la computación
-    - Programación de software de sistemas
-    - Teoría de la computación
+    - Cursos impartidos: Programación de Software de Sistemas, Teoría de la Computación, Matemáticas Discretas, Cálculo y Álgebra.
   ],
 )
-
 
 = Proyectos
 #exp(
-  role: "Memoria de titulo",
-  project: "Extraccion de red semantica de diccionarios",
-  date: "Jun 2024 - act",
-  summary: "Generacion y extraccion de una red semantica a partir de un diccionario de sinonimos",
+  role: "Memoria de título",
+  project: "Extracción de redes semánticas a partir de diccionarios",
+  date: "Jun 2024 - 2025",
+  summary: "Extracción, análisis y visualización de una red semántica a partir de un diccionario de sinónimos en español",
   details: [
-    - Scraping de pdf's con OCR tesseract
-    - Generacion de la red a partir de los datos extraidos
-    - Implementacion de una aplicacion simple que permite visualizar la red usando Neo4J y visjs
-    - Estudio de la red, su topologia y propiedades
+    - Construí un pipeline de OCR con Tesseract para extraer y procesar datos desde documentos PDF.
+    - Generé una red semántica y almacené sus relaciones en Neo4j.
+    - Desarrollé una aplicación web con vis.js para explorar la red de forma interactiva.
+    - Analicé la topología y las propiedades estructurales de la red con NetworkX.
+    - Visita el #link("https://red-sinonimos.dcc.uchile.cl")[sitio web del proyecto].
+  ],
+)
+
+#exp(
+  role: "Proyecto de Software: dnsrust",
+  project: "Niclabs",
+  date: "Mar 2024 - Ago 2024",
+  location: "Santiago",
+  summary: "Desarrollo colaborativo de una biblioteca DNS de código abierto en Rust",
+  details: [
+    - Colaboré en un equipo de cinco personas para implementar autenticación con clave compartida mediante TSIG.
+    - Implementé, probé y depuré extensiones de seguridad DNSSEC.
+    - Visita el #link("https://github.com/niclabs/dns-rust")[repositorio].
   ],
 )
 
 = Idiomas
-- Ingles (Nivel C1 Advanced)
+- Inglés (C1 Advanced)
 - Español (Nativo)
