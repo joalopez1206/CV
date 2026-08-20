@@ -170,7 +170,7 @@ Ingeniero en Computación y desarrollador de software con experiencia en la crea
     - Generé una red semántica y almacené sus relaciones en Neo4j.
     - Desarrollé una aplicación web con vis.js para explorar la red de forma interactiva.
     - Analicé la topología y las propiedades estructurales de la red con NetworkX.
-    - Visita el #link("https://red-sinonimos.dcc.uchile.cl")[sitio web del proyecto].
+    - Para mas info: #link("https://red-sinonimos.dcc.uchile.cl")[sitio web del proyecto].
   ],
 )
 
@@ -182,8 +182,8 @@ Ingeniero en Computación y desarrollador de software con experiencia en la crea
   summary: "Desarrollo colaborativo de una biblioteca DNS de código abierto en Rust",
   details: [
     - Colaboré en un equipo de cinco personas para implementar autenticación con clave compartida mediante TSIG.
-    - Implementé, probé y depuré extensiones de seguridad DNSSEC.
-    - Visita el #link("https://github.com/niclabs/dns-rust")[repositorio].
+    - Implementación y testing de extensiones de seguridad de DNS (DNSSEC).
+    - Para mas info: #link("https://github.com/niclabs/dns-rust")[repositorio].
   ],
 )
 
