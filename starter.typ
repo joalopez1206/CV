@@ -164,7 +164,7 @@ Ingeniero en Computación y desarrollador de software con experiencia en la crea
   role: "Memoria de título",
   project: "Extracción de redes semánticas a partir de diccionarios",
   date: "Jun 2024 - 2025",
-  summary: "Extracción, análisis y visualización de una red semántica a partir de un diccionario de sinónimos en español",
+  summary: "Extracción, análisis y visualización de una red semántica",
   details: [
     - Construí un pipeline de OCR con Tesseract para extraer y procesar datos desde documentos PDF.
     - Generé una red semántica y almacené sus relaciones en Neo4j.
