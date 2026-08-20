@@ -123,18 +123,18 @@ Ingeniero en Computación y desarrollador de software con experiencia en la crea
   ],
 )
 
+
 #exp(
   role: "Práctica Profesional II - Desarrollo de Software",
   project: "CCHEN",
   date: "Ene 2024 - Mar 2024",
   location: "Santiago",
-  summary: "Desarrollo de un sistema de control de cámaras para la adquisición de datos de plasma",
+  summary: "Desarrollo de un sistema de control de cámaras para",
   details: [
     - Desarrollé un sistema de control de cámaras para la captura sincronizada de imágenes durante experimentos de plasma.
     - Habilité la configuración de cámaras en tiempo real y la transferencia de imágenes mediante Ethernet.
   ],
 )
-
 #v(90mm)
 #exp(
   role: "Práctica Profesional I - Desarrollo de Software",
