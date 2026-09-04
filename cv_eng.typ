@@ -80,7 +80,6 @@ Computer Engineer and software developer with experience building internal devel
       [FreeRTOS],
       [ESP-IDF],
       [Arduino],
-      [I2C],
     ),
   ),
 ))
@@ -133,6 +132,7 @@ Computer Engineer and software developer with experience building internal devel
   details: [
     - Developed a camera control system for synchronized image capture during plasma experiments.
     - Enabled real-time camera configuration and image transfer over Ethernet.
+    - Implemented a GUI in C\# for controlling the camera system.
   ],
 )
 #v(90mm)
@@ -167,10 +167,10 @@ Computer Engineer and software developer with experience building internal devel
   role: "Thesis",
   project: "Semantic network extraction from dictionaries",
   date: "Jun 2024 - 2025",
-  summary: "Extraction, analysis, and visualization of a semantic network from a Spanish synonym dictionary",
+  summary: "Extraction, analysis, and visualization of a semantic network",
   details: [
     - Built a Tesseract OCR pipeline to extract and process dictionary data from PDF documents.
-    - Generated a semantic network and stored its relationships in Neo4j.
+    - Generated a semantic network using a synonym spanish dictionary and stored its relationships in Neo4j.
     - Developed a web application with vis.js to explore the network interactively.
     - Analyzed network topology and structural properties with NetworkX.
     - View the #link("https://red-sinonimos.dcc.uchile.cl")[project website].
